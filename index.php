@@ -4,15 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>ATM</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="asset/img/logo-ATM-2.png">
+
     <!-- style bootstrap -->
     <link rel="stylesheet" href="asset/style/bootstrap.min.css">
     <!-- style font awesome -->
     <link rel="stylesheet" href="asset/fontawesome-free-5.15.0-web/css/all.min.css">
     <!-- style general -->
     <link rel="stylesheet" href="asset/style/style.css">
-    <!-- style navbar -->
-    <link rel="stylesheet" href="asset/style/navbar.css">
+    <!-- style header -->
+    <link rel="stylesheet" href="asset/style/header.css">
     <!-- style footer -->
     <link rel="stylesheet" href="asset/style/footer.css">
 
@@ -25,16 +28,15 @@
     <!--Navbar-->
     <nav>
         <!--Logo-->
-        <a href="index.html" class="d-flex logosHeader">
-            <img class="logoAtm mx-auto" src="" alt="logo ATM">
-            <h4 class="logo">ATM</h4>
+        <a href="index.php" class="d-flex">
+            <img class="logoAtm m-auto" src="asset/img/logo-ATM-2.png" alt="logo ATM">
         </a>
 
 
         <!--Liens-->
         <ul class="navLinks">
             <li>
-                <a href="#">Accueil</a>
+                <a href="index.php">Accueil</a>
             </li>
             <li>
                 <a href="#">Réservation</a>
@@ -52,29 +54,46 @@
         </div>
     </nav>
 
-    <!--  img header -->
-    <img src="asset/img/scene-header.PNG" class="photoScene" alt="photo scène">
+    
+    <img src="asset/img/exterieur-taxi-1.jpg" class="header" alt="taxi">
     <!-------------------- HEADER END -------------------->
 
     <!-------------------- MAIN -------------------->
+
+
+
+
+
+
+
+
+
+
+
+    
     <!-------------------- MAIN END -------------------->
 
     <!-------------------- FOOTER -------------------->
     <div class="footer row">
         <!-- gauche -->
-        <div class="order-lg-1 col-lg-4 order-3 col-12">
+        <div class="m-auto col-12 order-3 col-sm-4 order-sm-1">
             <p>
-                Design : <a href="#">Johanna Galli</a>
+                Design : <a href="http://johanna-galli.fr">Johanna Galli</a>
             </p>
             <a href="#">Mentions légales</a>
         </div>
 
         <!-- milieu -->
-        <img class="logoAtmFooter order-lg-2 col-lg-4 order-1 col-12" src="" alt="logo ATM">
+        <img class="col-12 order-2 col-sm-4 order-sm-2" src="asset/img/logo-ATM-2.png" alt="logo ATM">
 
         <!-- droite -->
-        <div class="order-lg-3 col-lg-4 col-12 order-2 mx-auto">
-
+        <div class="m-auto col-12 order-1 col-sm-4 order-sm-3">
+            <p>
+                CONTACT :
+            </p>
+            <p>
+                adresse mail
+            </p>
         </div>
     </div>
     <!-------------------- FOOTER END -------------------->

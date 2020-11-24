@@ -2,7 +2,7 @@
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     min-height: 8vh;
     align-items: center;
     max-height: 10vh;
@@ -11,41 +11,20 @@ nav {
     width: 100%;
     padding: 0 10px;
     z-index: 20;
-}
-
-
-
-.logo {
-    display: flex;
-    color: rgb(204, 204, 204);
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 20px;
-    margin: 10px;
-    margin-top: 11%;
-    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px) contrast(.8);
 }
 
 .logoAtm {
     margin-top: 10%;
-    transform: translateY(-50%);
-    width: 90px;
-    height: 100%;
-}
-
-
-.logo h4 {
-    margin: 0;
-}
-
-.logosHeader:hover {
-    text-decoration: black;
+    max-height: 10vh;
+    padding: 5px 0;
 }
 
 .navLinks {
    display: flex;
    list-style: none;
-   justify-content: space-around;
+   justify-content: flex-end;
    width: 35%;
    margin: 0;
 }
@@ -60,7 +39,7 @@ nav {
 }
 
 .navLinks li a {
-    color:  rgb(204, 204, 204);
+    color:  #F3E6D9;
     letter-spacing: 1px;
 }
 
@@ -83,18 +62,22 @@ nav {
 .burger div {
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: #F3E6D9;
     margin: 5px;
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width:960px) {
+@media screen and (max-width:600px) {
     body {
         overflow-x: hidden;
     }
     nav {
         background-color: rgba(0, 0, 0, 0.800);
         backdrop-filter: blur(5px) contrast(.8);
+    }
+    .logoAtm {
+        max-height: 8vh;
+        padding: 5px 0;
     }
     .burger {
         display: block;
@@ -103,7 +86,7 @@ nav {
         position: absolute;
         right: 0px;
         height: 92vh;
-        top: 8vh;
+        top: 8.1vh;
         background-color: rgba(0, 0, 0, 0.800);
         backdrop-filter: blur(5px) contrast(.8);
         display: flex;
@@ -144,8 +127,9 @@ nav {
 }
 
 
-/********** IMG HEADER **********/
-
-.photoScene {
+.header {
     width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
 }
