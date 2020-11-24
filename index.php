@@ -54,18 +54,29 @@
         </div>
     </nav>
 
+    <div class="header text-center">
+        <img src="asset/img/exterieur-taxi-1.jpg" class="imgHeader" alt="taxi">
+        <div class="titleHeader d-flex justify-content-around">
+            <a href="reservation.php">Reservez <br> en ligne</a>
+            <a href="tel:+33500000000">ou appelez le <br> 06.00.00.00.00</a>
+        </div>
 
-    <img src="asset/img/exterieur-taxi-1.jpg" class="header" alt="taxi">
+    </div>
+
     <!-------------------- HEADER END -------------------->
 
     <!-------------------- MAIN -------------------->
-
-
-
-
-
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi atque magnam provident fugit dolores est, voluptate dignissimos ut placeat eum eligendi non? Reprehenderit est cumque aliquid quasi alias unde iste!</p>
-
+        <div class="bienvenu">
+            <p>
+                Bienvenu ! ATM effectue tous vos transports de courtes ou longues distances, privés ou professionnels. Nous facilitons tous vos déplacements par des prestations de qualités.
+            </p>
+            <p>
+                Welcome! ATM performs all your short or long distance transport, private or professional. We facilitate all your trips with quality services.
+            </p>
+            <p>
+                Herzlich willkommen! ATM führt alle Ihre privaten oder beruflichen Kurz- oder Ferntransporte durch. Wir erleichtern alle Ihre Reisen mit hochwertigen Dienstleistungen.
+            </p>
+        </div>
 
 
 
