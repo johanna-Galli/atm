@@ -4,16 +4,18 @@ body {
     margin-top: 10vh;
 }
 
-
 form {
-    width: 60%;
-    margin: 0 auto;
+    max-width: 500px;
 }
 
-.sizeInput {
-    height: 90px;
+.infoClient {
+    padding: 1em 2em;
+    box-shadow: 0em 0px 0.3em grey;
 }
 
+.inputSize {
+    height: 70px;
+}
 
 .inputs {
     border: none;
