@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="asset/style/style.css">
     <!-- style header -->
     <link rel="stylesheet" href="asset/style/header.css">
+    <!-- style reservation -->
+    <link rel="stylesheet" href="asset/style/reservation.css">
     <!-- style footer -->
     <link rel="stylesheet" href="asset/style/footer.css">
 
@@ -39,7 +41,7 @@
                 <a href="index.php">Accueil</a>
             </li>
             <li>
-                <a href="reservation.php">Réservation</a>
+                <a href="#">Réservation</a>
             </li>
             <li>
                 <a href="#">Contact</a>
@@ -53,24 +55,37 @@
             <div class="line3"></div>
         </div>
     </nav>
-
-
-    <img src="asset/img/exterieur-taxi-1.jpg" class="header" alt="taxi">
     <!-------------------- HEADER END -------------------->
 
     <!-------------------- MAIN -------------------->
 
+    <!--Formulaire de contact-->
+    <h4 class="text-center">Réservation en ligne :</h4>
 
+    <form action="form.php" method="post">
 
+        <div class="sizeInput">
+            <input type="text" maxlength="50" name="name" placeholder="Nom" class="inputs" id="inputName">
+            <p class="error" id="inputNameError"></p>
+        </div>
+        <div class="sizeInput">
+            <input type="text" maxlength="100" name="subject" placeholder="Sujet" class="inputs" id="inputSubject">
+            <p class="error" id="inputSubjectError"></p>
+        </div>
+        <div class="sizeInput">
+            <input type="email" maxlength="100" name="mail" placeholder="Mail" class="inputs" id="inputMail">
+            <p class="error" id="inputMailError"></p>
+        </div>
+        <div class="sizeInput">
+            <textarea name="message" placeholder="Message" maxlength="3000" class="inputs" id="inputMessage"></textarea>
+            <p class="error" id="inputMessageError"></p>
+        </div>
+        <div class="sizeInput">
+            <input type="submit" value="Envoyer" class="button d-bloc block mx-auto" name="page_formulaire">
+            <p id="feedBackMail"></p>
+        </div>
 
-
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi atque magnam provident fugit dolores est, voluptate dignissimos ut placeat eum eligendi non? Reprehenderit est cumque aliquid quasi alias unde iste!</p>
-
-
-
-
-
-
+    </form>
     <!-------------------- MAIN END -------------------->
 
     <!-------------------- FOOTER -------------------->
