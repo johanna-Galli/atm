@@ -13,6 +13,11 @@ form {
     box-shadow: 0em 0px 0.3em grey;
 }
 
+.infoVoyage {
+    padding: 1em 2em;
+    box-shadow: 0em 0px 0.3em grey;
+}
+
 .inputSize {
     height: 70px;
 }
