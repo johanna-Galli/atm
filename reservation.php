@@ -60,27 +60,62 @@
     <!-------------------- MAIN -------------------->
 
     <!--Formulaire de contact-->
-    <h4 class="text-center">Réservation en ligne :</h4>
+    <h3 class="text-center pt-3 pb-3 font-weight-bold">Réservation en ligne :</h3>
 
-    <form action="form.php" method="post">
+    <form action="form.php" method="post" class="mx-auto">
 
-        <div class="sizeInput">
-            <input type="text" maxlength="50" name="name" placeholder="Nom" class="inputs" id="inputName">
-            <p class="error" id="inputNameError"></p>
+        <!-- Informations client -->
+        <div class="infoClient mb-3">
+            <h4 class="pb-3">Informations client :</h4>
+            <div class="inputSize">
+                <input type="text" maxlength="50" name="name" placeholder="Nom" class="inputs" id="inputName">
+                <p class="error" id="inputNameError"></p>
+            </div>
+            <div class="inputSize">
+                <input type="text" maxlength="50" name="forename" placeholder="Prénom" class="inputs" id="inputForename">
+                <p class="error" id="inputForenameError"></p>
+            </div>
+            <div class="inputSize">
+                <input type="text" maxlength="150" name="adressPostal" placeholder="Adresse postale" class="inputs" id="inputAdressPostal">
+                <p class="error" id="inputAdressPostalError"></p>
+            </div>
+            <div class="inputSize">
+                <input type="text" maxlength="7" name="codepostal" placeholder="Code postal" class="inputs" id="inputCodePostal">
+                <p class="error" id="inputCodePostalError"></p>
+            </div>
+            <div class="inputSize">
+                <input name="ville" placeholder="Ville" maxlength="60" class="inputs" id="inputVille"></input>
+                <p class="error" id="inputVilleError"></p>
+            </div>
+            <div class="inputSize">
+                <input name="phone" placeholder="Téléphone" maxlength="15" class="inputs" id="inputPhone"></input>
+                <p class="error" id="inputPhoneError"></p>
+            </div>
+            <div class="inputSize">
+                <input name="email" placeholder="E-mail" maxlength="30" class="inputs" id="inputMail"></input>
+                <p class="error" id="inputMailError"></p>
+            </div>
         </div>
-        <div class="sizeInput">
-            <input type="text" maxlength="100" name="subject" placeholder="Sujet" class="inputs" id="inputSubject">
-            <p class="error" id="inputSubjectError"></p>
+
+        <!-- Voyage -->
+        <div class="infoClient">
+            <h4>Voyage :</h4>
+
+            <!-- Départ -->
+            <h5>Départ :</h5>
+            <div class="inputSize">
+                <input name="ville" placeholder="Ville" maxlength="60" class="inputs" id="inputVille"></input>
+                <p class="error" id="inputVilleError"></p>
+            </div>
+
+            <!-- Arrivée -->
+            <h5>Arrivée :</h5>
         </div>
-        <div class="sizeInput">
-            <input type="email" maxlength="100" name="mail" placeholder="Mail" class="inputs" id="inputMail">
-            <p class="error" id="inputMailError"></p>
-        </div>
-        <div class="sizeInput">
-            <textarea name="message" placeholder="Message" maxlength="3000" class="inputs" id="inputMessage"></textarea>
-            <p class="error" id="inputMessageError"></p>
-        </div>
-        <div class="sizeInput">
+
+
+
+
+        <div>
             <input type="submit" value="Envoyer" class="button d-bloc block mx-auto" name="page_formulaire">
             <p id="feedBackMail"></p>
         </div>
