@@ -3,21 +3,28 @@
 nav {
     display: flex;
     justify-content: space-between;
-    min-height: 8vh;
+    height: 60px;
     align-items: center;
-    max-height: 10vh;
     position: fixed;
     top: 0;
     width: 100%;
     padding: 0 10px;
     z-index: 20;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.692);
     backdrop-filter: blur(5px) contrast(.8);
+}
+
+.bgNav {
+    position: absolute;
+    background-color: black;
+    top: -60px;
+    width: 100%;
+    height: 60px;
 }
 
 .logoAtm {
     margin-top: 10%;
-    max-height: 10vh;
+    height: 50px;
     padding: 5px 0;
 }
 

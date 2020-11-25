@@ -62,6 +62,8 @@
         </div>
     </nav>
 
+    <div class="bgNav"></div>
+
     <div class="header text-center">
         <img src="asset/img/exterieur-taxi-1.jpg" class="imgHeader" alt="taxi">
         <div class="titleHeader d-flex justify-content-around">
@@ -92,36 +94,37 @@
 
     <!-------------------- MAIN -------------------->
     <div class="row">
+
+        <!-------------------- welcome -------------------->
         <div class="mx-auto p-0 col-10 col-xl-8">
-            <!-------------------- welcome -------------------->
+
             <div id="welcome">
                 <h2 class="text-uppercase">Bienvenue sur le site web de la société de transport <span class="font-weight-bold">ATM</span></h2>
                 <p>
                     <span class="font-weight-bold">ATM</span> effectue tous vos transports de courtes ou longues distances, privés ou professionnels. Nous vous facilitons tous vos déplacements par des prestations de qualités
                 </p>
+            </div>
+        </div>
+
+
+        <!-------------------- prestations -------------------->
+        <div class="mx-auto p-0 col-10 col-xl-8">
+            <div id="prestations">
                 <div class="d-flex">
-                    <img src="asset/img/business.jpg" alt="business man" class="imgBusinessMan rounded-sm">
-                    <p>
-                        Nous effectuons la prise en charge globale de vos clients, fournisseurs, ou salariés pendant leur séjour professionnel. Ouverture d'un compte entreprise avec règlement à 30 jours.
-                    </p>
+                    <!-------------------- Entreprise -------------------->
+                    <div>
+                        <img src="asset/img/business.jpg" alt="business man" class="imgBusinessMan rounded-sm">
+                        <p>
+                            Nous effectuons la prise en charge globale de vos clients, fournisseurs, ou salariés pendant leur séjour professionnel. Ouverture d'un compte entreprise avec règlement à 30 jours.
+                        </p>
+                    </div>
+                    <!-------------------- Aeroport -------------------->
+                    <div></div>
+                    <!-------------------- Hopital -------------------->
+                    <div></div>
                 </div>
             </div>
-
-
-
         </div>
-        <!-------------------- prestations -------------------->
-        <div id="prestations">
-            <ul>
-                <li>Réservation 7jours/7 & 24h/24</li>
-                <li>Toutes distances</li>
-                <li>Jusqu'à 8 passagers</li>
-                <li>Conventionné CPAM</li>
-                <li>Circuits touristiques</li>
-                <li>Accompagnement personnalisé</li>
-            </ul>
-        </div>
-
         <div class="parallax"></div>
 
         <!-------------------- tarifs -------------------->
