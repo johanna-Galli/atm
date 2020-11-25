@@ -16,6 +16,14 @@
     <link rel="stylesheet" href="asset/style/style.css">
     <!-- style header -->
     <link rel="stylesheet" href="asset/style/header.css">
+    <!-- style main -->
+    <link rel="stylesheet" href="asset/style/main.css">
+    <!-- style welcome -->
+    <link rel="stylesheet" href="asset/style/welcome.css">
+    <!-- style prestation -->
+    <link rel="stylesheet" href="asset/style/prestation.css">
+    <!-- style tarif -->
+    <link rel="stylesheet" href="asset/style/tarif.css">
     <!-- style footer -->
     <link rel="stylesheet" href="asset/style/footer.css">
 
@@ -64,40 +72,86 @@
     </div>
 
     <!-------------------- HEADER END -------------------->
+    <!-------------------- inter navbar -------------------->
+    <ul class="secondNav">
+
+        <li class="welcome">
+            <a class="text-uppercase" href="#welcome">Bienvenue </a>
+            <hr>
+        </li>
+
+        <li class="prestations">
+            <a class="text-uppercase" href="#prestations">Nos préstations</a><span class="verticalLine"></span>
+        </li>
+
+        <li class="Tarifs">
+            <a class="text-uppercase" href="#Tarifs">Nos tarifs</a>
+        </li>
+
+    </ul>
 
     <!-------------------- MAIN -------------------->
-        <div class="bienvenu">
-            <p>
-                Bienvenu ! ATM effectue tous vos transports de courtes ou longues distances, privés ou professionnels. Nous facilitons tous vos déplacements par des prestations de qualités.
-            </p>
-            <p>
-                Welcome! ATM performs all your short or long distance transport, private or professional. We facilitate all your trips with quality services.
-            </p>
-            <p>
-                Herzlich willkommen! ATM führt alle Ihre privaten oder beruflichen Kurz- oder Ferntransporte durch. Wir erleichtern alle Ihre Reisen mit hochwertigen Dienstleistungen.
-            </p>
+    <div class="row">
+        <div class="mx-auto p-0 col-10 col-xl-8">
+            <!-------------------- welcome -------------------->
+            <div id="welcome">
+                <h2 class="text-uppercase">Bienvenue sur le site web de la société de transport <span class="font-weight-bold">ATM</span></h2>
+                <p>
+                    <span class="font-weight-bold">ATM</span> effectue tous vos transports de courtes ou longues distances, privés ou professionnels. Nous vous facilitons tous vos déplacements par des prestations de qualités
+                </p>
+                <div class="d-flex">
+                    <img src="asset/img/business.jpg" alt="business man" class="imgBusinessMan rounded-sm">
+                    <p>
+                        Nous effectuons la prise en charge globale de vos clients, fournisseurs, ou salariés pendant leur séjour professionnel. Ouverture d'un compte entreprise avec règlement à 30 jours.
+                    </p>
+                </div>
+            </div>
+
+
+
+        </div>
+        <!-------------------- prestations -------------------->
+        <div id="prestations">
+            <ul>
+                <li>Réservation 7jours/7 & 24h/24</li>
+                <li>Toutes distances</li>
+                <li>Jusqu'à 8 passagers</li>
+                <li>Conventionné CPAM</li>
+                <li>Circuits touristiques</li>
+                <li>Accompagnement personnalisé</li>
+            </ul>
         </div>
 
+        <div class="parallax"></div>
 
+        <!-------------------- tarifs -------------------->
+        <div id="tarifs">
+            <ul>
+                <li>Tarif dégréssif</li>
+                <li>fidélité</li>
+                <li>abonnement</li>
+                <li>Paiement par CB</li>
+            </ul>
+        </div>
 
-
+    </div>
 
     <!-------------------- MAIN END -------------------->
 
-    <!-------------------- FOOTER -------------------->
-    <div class="footer row">
-        <!-- gauche -->
+    <!-------------------- FOOTER ------------------
+    <div class="footer row">-->
+    <!-- gauche 
         <div class="m-auto col-12 order-3 col-sm-4 order-sm-1">
             <p>
                 Design : <a href="http://johanna-galli.fr">Johanna Galli</a>
             </p>
             <a href="#">Mentions légales</a>
-        </div>
+        </div>-->
 
-        <!-- milieu -->
-        <img class="col-12 order-2 col-sm-4 order-sm-2" src="asset/img/logo-ATM-2.png" alt="logo ATM">
+    <!-- milieu 
+        <img class="col-12 order-2 col-sm-4 order-sm-2" src="asset/img/logo-ATM-2.png" alt="logo ATM">-->
 
-        <!-- droite -->
+    <!-- droite 
         <div class="m-auto col-12 order-1 col-sm-4 order-sm-3">
             <p>
                 CONTACT :
@@ -106,12 +160,14 @@
                 adresse mail
             </p>
         </div>
-    </div>
+    </div>-->
     <!-------------------- FOOTER END -------------------->
 </body>
 
 <!-- JS -->
 <script src="asset/js/navbar.js"></script>
+<!-- JS header -->
+<script src="asset/js/header.js"></script>
 <!-- JS Bootstrap -->
 <script src="asset/js/bootstrap.min.js"></script>
 
