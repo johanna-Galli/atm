@@ -145,7 +145,6 @@ nav {
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-
     font-size: 15px;
 }
 
@@ -156,13 +155,22 @@ nav {
 }
 
 .titleHeader a {
-    background-color: #161511b9;    
-    border: solid 2px rgba(122, 122, 122, 0.493);
-    color: #eeeeee;
+    background-color: #534e52;
+    border-radius: 5%;
+    color: white;
     padding: 1vw;
+    width: 200px;
+}
+
+
+@media (max-width:600px) {
+    .titleHeader a {
+        width: 150px;
+    }
 }
 
 .titleHeader a:hover {
     text-decoration: none;
-    border: solid 2px #ffd369;
+    background-color: #965d62;
+    color: #d8d7d5;
 }
