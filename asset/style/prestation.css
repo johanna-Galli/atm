@@ -1,14 +1,29 @@
+#prestations {
+  position: relative;
+  top: -60px;
+}
+
+.prestations {
+  background-color: #F2F2F2;
+  padding: 60px 0;
+}
+
+.prestations h2 {
+  font-family: "Karla-light";
+  color: #965D62;
+}
+
 .parallax {
-    /* The image used */
-    background-image: url("../img/interieur-taxi-1.jpg");
+  /* The image used */
+  background-image: url("../img/interieur-taxi-1.jpg");
   
-    /* Set a specific height */
-    min-height: 400px; 
-    width: 100%;
+  /* Set a specific height */
+  min-height: 400px; 
+  width: 100%;
   
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

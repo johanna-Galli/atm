@@ -147,7 +147,7 @@ nav {
 
 .titleHeader {
     position: absolute;
-    bottom: 13vh;
+    bottom: 150px;
     width: 100%;
     left: 50%;
     -webkit-transform: translateX(-50%);

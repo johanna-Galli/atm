@@ -1,8 +1,16 @@
-#welcome h2 {
+.welcome {
+    padding-bottom: 60px;
+}
+
+.welcome h2 {
     font-family: "Karla-light";
     color: #965D62;
 }
 
 .imgBusinessMan {
+    max-width: 200px;
+}
+
+.imgPhone {
     max-width: 200px;
 }

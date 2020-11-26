@@ -33,17 +33,17 @@
 }
 
 /* bouton bienvenue */
-.welcome {
+.welcomeButton {
     background-color: #ffffff;    
     border-radius: 5px 0 0 0 ;
 }
 
-.welcome a {
+.welcomeButton a {
     color: #534e52 !important;
     height: 100%;
 }
 
-.welcome:hover a {
+.welcomeButton:hover a {
     border-radius: 5px 0 0 0;
 }
 
