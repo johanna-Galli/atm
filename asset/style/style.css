@@ -33,3 +33,15 @@ body {
     width: 100%;
     margin: 0;
 }
+
+#scrollUp {
+    position: fixed;
+    bottom : 10px;
+    right: -100px;
+    opacity: 0.5;
+}
+
+#scrollUp  a i {
+    color: black;
+    font-size: 40px;
+}
