@@ -27,11 +27,16 @@
     <!-- style footer -->
     <link rel="stylesheet" href="asset/style/footer.css">
 
+    <!-- JS jquery google -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <!-- JS Bootstrap -->
+    <script src="asset/js/bootstrap.min.js"></script>
 
 </head>
 <!---->
 
 <body>
+    <div id="top"></div>
     <!-------------------- HEADER -------------------->
     <!--Navbar-->
     <nav>
@@ -68,10 +73,12 @@
 
     <div class="header text-center">
         <img src="asset/img/exterieur-taxi-1.jpg" class="imgHeader" alt="taxi">
+
+        <!-------------------- 
         <div class="titleHeader d-flex justify-content-around">
             <a href="reservation.php">Reservez <br> en ligne</a>
             <a href="tel:+33500000000">ou appelez le <br> 06 00 00 00 00</a>
-        </div>
+        </div>------------------->
 
     </div>
 
@@ -152,11 +159,11 @@
                             Entreprises
                         </h4>
 
+                        <img src="asset/img/business.jpg" alt="business man" class="imgPrestations rounded-sm">
+
                         <p class="text-justify">
                             Nous effectuons la prise en charge globale de vos clients, fournisseurs, ou salariés pendant leur séjour professionnel.
                         </p>
-
-                        <img src="asset/img/business.jpg" alt="business man" class="imgPrestations rounded-sm">
 
                         <p class="text-justify">
                             Possibilité d'ouverture de compte entreprise avec règlement à 30 jours.
@@ -228,13 +235,21 @@
         </div>
     </div>-->
     <!-------------------- FOOTER END -------------------->
+
+    <div id="scrollUp">
+        <a href="#top">
+            <i class="fas fa-chevron-circle-up"></i>
+        </a>
+    </div>
 </body>
 
 <!-- JS -->
 <script src="asset/js/navbar.js"></script>
 <!-- JS header -->
 <script src="asset/js/header.js"></script>
-<!-- JS Bootstrap -->
-<script src="asset/js/bootstrap.min.js"></script>
+<!-- JS to-top -->
+<script src="asset/js/to-top.js"></script>
+
+
 
 </html>
