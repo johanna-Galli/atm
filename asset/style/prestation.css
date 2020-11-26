@@ -1,3 +1,4 @@
+/*position encre*/
 #prestations {
   position: relative;
   top: -60px;
@@ -11,6 +12,31 @@
 .prestations h2 {
   font-family: "Karla-light";
   color: #965D62;
+  padding-left: 1.5rem;
+}
+
+.prestations h4 {
+  font-family: "Karla-light";
+  color: #534e52;
+  
+}
+
+.prestations p {
+  padding: 1rem;
+  margin: 0;
+}
+
+.prestationsPart {
+  height: fit-content;
+  border-bottom: solid 1px #534e5250;
+  border-left: solid 1px #534e5250;
+  border-right: solid 1px #534e5250;
+  margin: 10px;
+}
+
+.imgPrestations {
+  width: 100%;
+  padding: 0 1.5rem;
 }
 
 .parallax {
