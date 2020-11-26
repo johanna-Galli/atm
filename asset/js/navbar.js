@@ -28,30 +28,6 @@ let navSlide = () => {
     });
 }
 
-// fonction au scroll
-window.onscroll = function () { scrollFunction() };
-
-function scrollFunction() {
-    //valeur du scroll top
-    let scrollTop = document.documentElement.scrollTop;
-
-    if (scrollTop > 10) {
-        console.log(scrollTop);
-        console.log("supp a 10");
-        //nav.style.backgroundColor = "black";
-    } else if (scrollTop >= 0 || scrollTop <= 10) {
-        //nav.style.backgroundColor = "none";
-        console.log("inf a 10");
-    }
-
-
-}
-
-let navBackground = () => {
-
-
-}
 
 // action fonctions
 navSlide();
-navBackground();
