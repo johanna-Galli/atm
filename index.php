@@ -103,16 +103,20 @@
         <div class="mx-auto p-0 col-10 col-xl-8">
 
             <div class="welcome">
+
                 <h2 class="text-uppercase">
                     Bienvenue chez <span class="font-weight-bold">ATM</span>, votre solution de transport
                 </h2>
+
                 <p class="text-justify">
                     <span class="font-weight-bold">ATM</span> effectue tous vos transports de courtes ou longues distances, privés ou professionnels et jusqu'a 7 voyageurs par véhicule. Nous vous facilitons tous vos déplacements par des prestations de qualités et vous offrons un accompagnement personnalisé.
                 </p>
+
                 <p class="text-justify">
                     Grâce à notre équipe de professionels, nous sommes à votre disposition <span class="font-weight-bold">7J/7</span> et <span class="font-weight-bold">24H/24</span>.
                 </p>
-                <div class="row">
+
+                <div class="row pb-3">
                     <p class="m-auto p-0 col-12 order-2 col-sm-8 order-sm-1">
                         Réservez votre chauffeur en téléphonant au <a href="tel:+33500000000">06 00 00 00 00</a> ou en quelques clics en remplissant notre formulaire de <a href="reservation.php">réservation</a> en ligne.
                     </p>
@@ -121,6 +125,10 @@
                         <img src="asset/img/phone-1.jpg" alt="telephone" class="imgPhone rounded-circle ">
                     </div>
                 </div>
+
+                <p class="text-justify">
+                    Pour toute question ou renseignements complémentaires, veuillez nous contacter par mail : <a href="mail:test@test.fr">test@test.fr</a>.
+                </p>
 
             </div>
         </div>
@@ -137,31 +145,45 @@
                 <h2 class="text-uppercase mb-5">
                     Nos préstations
                 </h2>
-                <div class="d-flex">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap">
                     <!-------------------- Entreprise -------------------->
-                    <div>
-                        <img src="asset/img/business.jpg" alt="business man" class="imgBusinessMan rounded-sm">
+                    <div class="text-center prestationsPart">
+                        <h4 class="text-uppercase">
+                            Entreprises
+                        </h4>
+
                         <p class="text-justify">
-                            Nous effectuons la prise en charge globale de vos clients, fournisseurs, ou salariés pendant leur séjour professionnel. Ouverture d'un compte entreprise avec règlement à 30 jours.
+                            Nous effectuons la prise en charge globale de vos clients, fournisseurs, ou salariés pendant leur séjour professionnel.
+                        </p>
+
+                        <img src="asset/img/business.jpg" alt="business man" class="imgPrestations rounded-sm">
+
+                        <p class="text-justify">
+                            Possibilité d'ouverture de compte entreprise avec règlement à 30 jours.
                         </p>
                     </div>
                     <!-------------------- Aeroport -------------------->
-                    <div>
+                    <div class="text-center prestationsPart">
+                        <h4 class="text-uppercase">
+                            Aéroport
+                        </h4>
                         <p class="text-justify">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, accusantium necessitatibus possimus dolore dolorem iure, iusto nobis eius nisi, modi dicta quos repudiandae deserunt sunt eveniet totam quibusdam facere quod!
                         </p>
-                        <img src="asset/img/avion-1.jpg" alt="Aéroport" class="imgBusinessMan rounded-sm">
-                        <p class="text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa illum, ex perferendis soluta fuga totam sed veniam doloribus vel atque neque veritatis? Id aperiam provident nulla obcaecati officia suscipit alias?
-                        </p>
+                        <img src="asset/img/avion-1.jpg" alt="Aéroport" class="imgPrestations rounded-sm pb-4">
                     </div>
                     <!-------------------- Hopital -------------------->
-                    <div>
+                    <div class="text-center prestationsPart">
+                        <h4 class="text-uppercase">
+                            Hôpital
+                        </h4>
                         <p class="text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, veritatis sapiente. Ab placeat error maxime quibusdam repudiandae ducimus, nostrum, magni, blanditiis cupiditate cum dolor dignissimos eos voluptate vitae libero impedit!
+                            ATM est conventionné par les organismes sociaux (CPAM) pour transporter au même titre que les VSL (Véhicule Sanitaire Léger) des malades assis sur prescription médicale.
                         </p>
-                        <img src="asset/img/business.jpg" alt="business man" class="imgBusinessMan rounded-sm">
-
+                        <img src="asset/img/hospital.jpg" alt="ambulance sur route" class="imgPrestations rounded-sm">
+                        <p class="text-justify">
+                            Nous sommes équipés d'un terminal, lecteur de carte et nous pratiquons le tiers payant. Pour cela, vous devez être en possession de votre carte vitale et de votre bon de transport médicalisé.
+                        </p>
                     </div>
                 </div>
             </div>
